@@ -83,3 +83,7 @@ nav.ui.container .ui.inverted.compact.menu .active.item {
 .ui.inverted.vertical.segment footer.ui.segment a {
     color: white;
 }
+
+.disable_box_shadow{
+    box-shadow:none !important;
+}
