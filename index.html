@@ -8,46 +8,70 @@
     <meta name="keywords" content="raw page, test">
     <meta name="description" content="raw tset">
     <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=no">
+    <meta name="theme-color" content="#ffffff">
     <!--ico-->
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <!--semantic-ui-->
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-
-
+    <!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!--css-->
     <link rel="stylesheet" href="./index.css">
 </head>
 
-<body>
+<body id="root">
     <header>
-        <!--div id="headerJS">
-      </div-->
-        <nav class="navbar navbar-expand-lg sticky-top navbar-dark" style="background-color: #FFCB99;">
-            <!--a class="navbar-brand" href="About" id="logo_shift">phonelf</a-->
-            <img src="./hand_book/Bujoico.png" style="object-fit:contain;height:44px;" class="navbar-brand" href="404"
-                id="logo_shift">
-            </img>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                </span>
-            </button>
+    </header>
 
-           
-    <footer>
-        <!--js-->
-        <!--jquery-->
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <!--semantic-ui-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-        </script>
-        <!-- index.js -->
-        <script src="./index.js">
-        </script>
-    </footer>
+    <div class="ui inverted vertical center aligned segment">
+        <nav class="ui container">
+            <h1 class="ui inverted header">Cover</h1>
+            <div class="ui borderless inverted compact menu">
+                <a class="active item">Home</a> <a class="item">Feature</a>
+                <a class="item">Contact</a>
+            </div>
+        </nav>
+        <div class="ui content container">
+            <h1 class="ui inverted header">Cover your page.</h1>
+            <p>
+                Cover is a one-page template for building simple and beautiful home
+                pages. Download, edit the text, and add your own fullscreen background
+                photo to make it your own.
+            </p>
+            <div class="ui huge button">Learn more</div>
+        </div>
+        <footer class="ui inverted vertical segment">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">tset1</div>
+                    <div class="swiper-slide">tset2</div>
+                    <div class="swiper-slide">tset3</div>
+                </div>
+            </div>
+            <div id="The_following_code_paragraphs_are_used_to_call_js_programs_please_do_not_change_them">
+                <!--js-->
+                <!--jquery-->
+                <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+                    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+                <!--semantic-ui-->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+                </script>
+                <!--vue-->
+                <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+                <!--swiper-->
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js">
+                </script>
+                <!-- Initialize Swiper -->
+                <script src="./Initialize_Swiper.js"></script>
+                <!-- index.js -->
+                <script src="./index.js"></script>
+            </div>
+        </footer>
+    </div>
+
 
 </body>
 
